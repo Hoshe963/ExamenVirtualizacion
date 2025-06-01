@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicando la Virtualización</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Escena 1: Infraestructura Física Tradicional - El Problema -->
+        <section class="scene" id="scene1">
+            <div class="content">
+                <div class="server-wrapper">
+                    <div class="icon-placeholder server-icon"></div>
+                    <div class="server-label">Recursos Dedicados</div>
+                </div>
+                <div class="server-wrapper">
+                    <div class="icon-placeholder server-icon"></div>
+                    <div class="server-label">Poca Flexibilidad</div>
+                </div>
+                <div class="server-wrapper">
+                    <div class="icon-placeholder server-icon"></div>
+                    <div class="server-label">Costos Elevados</div>
+                </div>
+            </div>
+            <div class="scene-title">El Mundo Físico: Limitaciones</div>
+        </section>
+
+        <!-- Escena 2: Introduciendo el Hipervisor - La Solución Mágica -->
+        <section class="scene" id="scene2">
+            <div class="content">
+                <!-- Servidores de la escena anterior, ahora como fondo -->
+                <div class="icon-placeholder server-icon faded"></div>
+                <div class="icon-placeholder server-icon faded"></div>
+                <div class="icon-placeholder server-icon faded"></div>
+                <!-- Capa del Hipervisor que se anima -->
+                <div class="hypervisor-layer">
+                    <span>HIPERVISOR</span>
+                </div>
+            </div>
+            <div class="scene-title">La Capa de Virtualización: El Hipervisor</div>
+        </section>
+
+        <!-- Escena 3: Nacen las Máquinas Virtuales - La Transformación -->
+        <section class="scene" id="scene3">
+            <div class="content vm-genesis-area"> <!-- Área donde "nacen" las VMs -->
+                <div class="icon-placeholder vm-icon vm1"><span>VM 1</span></div>
+                <div class="icon-placeholder vm-icon vm2"><span>VM 2</span></div>
+                <div class="icon-placeholder vm-icon vm3"><span>VM 3</span></div>
+                <div class="icon-placeholder vm-icon vm4"><span>VM 4</span></div>
+                <div class="icon-placeholder vm-icon vm5"><span>VM 5</span></div>
+            </div>
+            <div class="underlying-hardware-visual"></div> <!-- Simula el hardware subyacente -->
+            <div class="scene-title">Múltiples Entornos: Máquinas Virtuales</div>
+        </section>
+
+        <!-- Escena 4: Beneficios Clave - El Resultado -->
+        <section class="scene" id="scene4">
+            <div class="content benefits-showcase">
+                <div class="benefit-item">
+                    <div class="icon-placeholder benefit-icon cloud-benefit"></div>
+                    <div class="benefit-label">Agilidad y Flexibilidad</div>
+                </div>
+                <div class="benefit-item">
+                    <div class="icon-placeholder benefit-icon efficiency-benefit"></div>
+                    <div class="benefit-label">Optimización de Recursos</div>
+                </div>
+                <div class="benefit-item">
+                    <div class="icon-placeholder benefit-icon scalability-benefit"></div>
+                    <div class="benefit-label">Escalabilidad Fácil</div>
+                </div>
+            </div>
+            <div class="scene-title">Ventajas de la Virtualización</div>
+        </section>
+
+        <!-- Escena 5: Los Creadores (sin cambios mayores) -->
+        <section class="scene" id="scene5">
+            <div class="content-creators">
+                <h2>Desarrollado por:</h2>
+                <ul class="team-list">
+                    <li>(Mark Angelo Landeo)</li><li>(Diego Alonso Rengifo)</li><li>(Yomer Isidro Santos)</li>
+                    <li>(Juan Jose Matallana)</li><li>(Liz cieza)</li><li>(José Falcón)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Escena 6: Título Final (sin cambios mayores) -->
+        <section class="scene" id="scene6">
+            <div class="final-title">
+                <h1>Virtualización</h1>
+                <h2>de Servicios Tecnológicos</h2>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
